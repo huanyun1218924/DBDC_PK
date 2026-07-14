@@ -11,15 +11,13 @@ library(circlize)
 library(pheatmap)
 
 #read data
-load("BFI_for_use_no_filtering.RData")
-metvar <- names(df)[23:35661]
+load("plasma_sample.RData")
 
-load("Res_Plasma_ANOVA_Final.RData")
-names(pla.anno)[1] <- "name"
+#check data
+dim(plasma_sample)
+#1125 995
 
-#read annotation file
-anno <- fread("Annotation_PK.csv") %>% as.data.frame()
-
+#check annotation file
 anno_1 <- anno[which(anno$Class %in% c("Azoles","Azolidines","Diazines","Pyridines and derivatives","Isoquinolines and derivatives","Indoles and derivatives","Benzopyrans","Quinolines and derivatives","Benzodioxoles","Benzothiazoles","Cinchona alkaloids","Naphthalenes")),]
 anno_2 <- anno[which(anno$Class %in% c("Purine nucleotides","Pyrimidine nucleosides","Purine nucleosides","5'-Deoxyribonucleosides","Nucleoside and nucleotide analogues","Imidazopyrimidines","Pyrazolopyrimidines","Pteridines and derivatives")),]
 anno_3 <- anno[which(anno$Class %in% c("Flavonoids","Tropane alkaloids","Cinchona alkaloids","Phenylpropanoic acids","Biotin and derivatives")),]
@@ -49,7 +47,7 @@ geo_mean <- function(x) {
 }
 
 results <- df %>% group_by(group, time) %>% summarise(across(metvar, geo_mean, .names = "geo_mean_{col}")) %>% ungroup()
-names(results)[3:35641] <- metvar
+names(results)[3:ncol(df] <- metvar
 
 results[3:35641] <- apply(results[3:35641],2,function(x)as.numeric(x))
 
