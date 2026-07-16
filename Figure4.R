@@ -10,14 +10,28 @@ library(ggvenn)
 library(ggalt)
 library(gridExtra)
 library(patchwork)
-library(lme4)
+library(lme4)       #pacakge used for linear mixed model!
 library(emmeans)
 
 #read data
-load("BFI_for_use_Urine_No_Filtering.RData")
+load("urine_sample.RData")
 
-metvar <- uri.anno$uID
+#check data
+dim(urine_sample)
+#662 631
 
+#check covariates
+covar
+
+#check metabolites
+metvar
+
+#check group and time
+table(urine_sample$group)
+
+table(urine_sample$time)
+
+#run linear mixed model to identify in response to food intake, adjusted for age, sex,race, and BMI
 results <- list()  
 results_l <- list()
 results_b <- list()
@@ -25,19 +39,19 @@ results_p <- list()
 results_e <- list()
 results_c <- list()
 
-for (i in 1:624) {
+for (i in 1:length(metvar) {
   
   metabolite <- metvar[i]
-  data <- df[covar]
-  data$Concentration <- as.numeric(df[[metabolite]])  
+  data <- urine_sample[covar]
+  data$Concentration <- as.numeric(urine_sample[[metabolite]])  
   data$group <- as.factor(data$group)
   data$time <- as.factor(data$time)
   
-  # Run linear mixed model
+  #run linear mixed model
   fit1 <- lmer(log(Concentration) ~ group*time + ips_age + ps_sex + race + ips_bmi + (1 | ID), data = data)
   fit2 <- lmer(log(Concentration) ~ group + time + ips_age + ps_sex + race + ips_bmi + (1 | ID), data = data)
   
-  # Store the results
+  #save the results
   results[[i]] <- summary(fit1)
   results_l[[i]] <- anova(fit1, fit2)[2,"Pr(>Chisq)"]
   results_b[[i]] <- summary(emmeans(fit1, pairwise ~ group | time))$emmeans
@@ -47,4 +61,5 @@ for (i in 1:624) {
   
 }
 
+#save results
 save(results,results_b,results_p,results_e,results_c,results_l,file="Res_LMM_Urine.RData")
