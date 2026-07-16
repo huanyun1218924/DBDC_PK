@@ -1,5 +1,12 @@
 Metabolomic Discovery of Multi-fluid Biomarkers of Food Intake in a Randomized Acute Feeding Trial
 
+Dataset files:
+
+plasma_sample.RData: A simulated plasma dataset with the same sample size and metabolite variables as the original dataset
+
+urine_sample.RData: A simulated urine dataset with the same sample size and metabolite variables as the original dataset
+
+
 Code files in this repository covers the main analyses:
 
 Figure 2.R: Time-course metabolites change patterns after food intake;
