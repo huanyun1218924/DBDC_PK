@@ -3,7 +3,7 @@
 
 ## 📌 Overview
 
-This repository contains the simulated sample data and main analysis code for a integrative study investigating the associations between diet, circulating metabolome in relation to incident type 2 diabetes. The analysis utilizes diet, metabolomics data from food, plasma, and urine samples.
+This repository contains the simulated sample data and main analysis code used for investigation of candidate biomarkers of 8 test foods and estimation of their kinetic properties. The analysis utilizes diet, metabolomics data from food, plasma, and urine samples.
 
 
 ## 📂 Repository Structure
