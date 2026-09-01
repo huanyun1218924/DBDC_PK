@@ -37,7 +37,7 @@ Note: Individual-level data are not included in this repository because of data-
 
 - `Figure4.R`: Identification of urinary metabolites in response to food intake using linear mixed model.
 
-- `Figure5.R`: Classification performance of multi-metabolite signature for differentiating test foods. LASSO model was used to select metabolites. 
+- `Figure5.R`: Classification performance of multi-metabolite signature for differentiating examined foods. LASSO model was used to select metabolites. 
 
 - `Figure6.R`: Estimation of kinetic parameters of annotated metabolites uisng non-compartmental model.
 
