@@ -58,5 +58,5 @@ The following core packages are required (full list available in the each R scri
 ## 📧 Contact
 For questions regarding the analysis or code, please contact:
 
-Huan Yun, Harvard T.H. Chan School of Public Health
+Huan Yun, Harvard T.H. Chan School of Public Health,
 huanyun@hsph.harvard.edu
