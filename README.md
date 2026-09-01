@@ -25,9 +25,9 @@ Note: Individual-level data are not included in this repository because of data-
 ```
 
 ## 🔬 Sample data
-- plasma_sample.Rdata: A simulated plasma dataset with the same sample size and metabolite variables as the original dataset
+- plasma_sample.Rdata: A simulated plasma dataset with the same sample size and metabolite variables as the original dataset.
 
-- urine_sample.RData: A simulated urine dataset with the same sample size and metabolite variables as the original dataset
+- urine_sample.RData: A simulated urine dataset with the same sample size and metabolite variables as the original dataset.
 
 
 ## 🧬 Main analysis code
