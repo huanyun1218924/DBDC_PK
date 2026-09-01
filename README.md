@@ -43,13 +43,13 @@ Note: Individual-level data are not included in this repository because of data-
 
 
 ## 💻 Environment & Dependencies
-R version 4.3.3 (2024-02-29)
-Platform: x86_64-pc-linux-gnu (64-bit)
-Running under: Rocky Linux 9.7 (Blue Onyx)
+- R version 4.3.3 (2024-02-29)
+- Platform: x86_64-pc-linux-gnu (64-bit)
+- Running under: Rocky Linux 9.7 (Blue Onyx)
 
-Matrix products: default
-BLAS:   /app/R-4.3.3@i86-rhel9.0/lib64/R/lib/libRblas.so 
-LAPACK: FlexiBLAS OPENBLAS-OPENMP;  LAPACK version 3.9.0
+- Matrix products: default
+- BLAS:   /app/R-4.3.3@i86-rhel9.0/lib64/R/lib/libRblas.so 
+- LAPACK: FlexiBLAS OPENBLAS-OPENMP;  LAPACK version 3.9.0
 
 The following core packages are required (full list available in the /functions folder):
 - Data processing: tidyr_1.3.2    plyr_1.8.9  dplyr_1.2.0  data.table_1.18.2.1
