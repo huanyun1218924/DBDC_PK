@@ -25,12 +25,14 @@ Note: Individual-level data are not included in this repository because of data-
 ```
 
 ## 🔬 Sample Data
+```text
 - `plasma_sample.Rdata`: A simulated plasma dataset with the same sample size and metabolite variables as the original dataset.
 
 - `urine_sample.Rdata`: A simulated urine dataset with the same sample size and metabolite variables as the original dataset.
-
+```
 
 ## 🧬 Main Analysis Code
+```text
 - `Figure2.R`: Time-course cluster analysis based on sequential postprandial metabolomics data using Mfuzz.
 
 - `Figure3.R`: Identification of plasma metabolites in response to food intake using linear mixed model.
@@ -40,7 +42,7 @@ Note: Individual-level data are not included in this repository because of data-
 - `Figure5.R`: Classification performance of multi-metabolite signature for differentiating examined foods. LASSO model was used to select metabolites. 
 
 - `Figure6.R`: Estimation of kinetic parameters of annotated metabolites uisng non-compartmental model.
-
+```
 
 ## 💻 Environment & Dependencies
 - R version:`v4.3.3`
