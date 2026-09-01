@@ -13,11 +13,11 @@ This repository contains the simulated sample data and main analysis code used f
 │   ├── urine_sample.RData
 │
 ├── code/
-│   ├── Figure 2.R
-│   ├── Figure 3.R
-│   ├── Figure 4.R
-│   ├── Figure 5.R
-│   └── Figure 6.R
+│   ├── Figure2.R
+│   ├── Figure3.R
+│   ├── Figure4.R
+│   ├── Figure5.R
+│   └── Figure6.R
 │
 └── README.md
 
@@ -31,15 +31,15 @@ Note: Individual-level data are not included in this repository because of data-
 
 
 ## 🧬 Main Analysis Code
-- `Figure 2.R`: Time-course analysis based on sequential postprandial metabolomics data.
+- `Figure2.R`: Time-course analysis based on sequential postprandial metabolomics data.
 
-- `Figure 3.R`: Identification of plasma metabolites in response to food intake using linear mixed model.
+- `Figure3.R`: Identification of plasma metabolites in response to food intake using linear mixed model.
 
-- `Figure 4.R`: Identification of urinary metabolites in response to food intake using linear mixed model.
+- `Figure4.R`: Identification of urinary metabolites in response to food intake using linear mixed model.
 
-- `Figure 5.R`: Classification performance of multi-metabolite signature for differentiating test foods. LASSO model was used to select metabolites. 
+- `Figure5.R`: Classification performance of multi-metabolite signature for differentiating test foods. LASSO model was used to select metabolites. 
 
-- `Figure 6.R`: Estimation of kinetic parameters of annotated metabolites uisng non-compartmental model.
+- `Figure6.R`: Estimation of kinetic parameters of annotated metabolites uisng non-compartmental model.
 
 
 ## 💻 Environment & Dependencies
