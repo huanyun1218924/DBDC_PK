@@ -24,13 +24,13 @@ This repository contains the simulated sample data and main analysis code used f
 Note: Individual-level data are not included in this repository because of data-use and participant confidentiality restrictions.
 ```
 
-## 🔬 Sample data
+## 🔬 Sample Data
 - plasma_sample.Rdata: A simulated plasma dataset with the same sample size and metabolite variables as the original dataset.
 
 - urine_sample.RData: A simulated urine dataset with the same sample size and metabolite variables as the original dataset.
 
 
-## 🧬 Main analysis code
+## 🧬 Main Analysis Code
 - Figure 2.R: Time-course analysis based on sequential postprandial metabolomics data.
 
 - Figure 3.R: Identification of plasma metabolites in response to food intake using linear mixed model.
@@ -52,9 +52,9 @@ Note: Individual-level data are not included in this repository because of data-
 - LAPACK: FlexiBLAS OPENBLAS-OPENMP;  LAPACK version 3.9.0
 
 The following core packages are required (full list available in the /functions folder):
-- Data processing: data.table_1.18.2.1  dplyr_1.2.0  tidyr_1.3.2 
-- Data analysis:   Mfuzz_2.62.0   lme4_2.0-1   emmeans_2.0.4   PKNCA_0.12.1   glmnet_4.1-10    cvTools_0.3.3    PredictABEL_1.2-4
-- Visualization:   ggplot2_4.0.2  ComplexUpset_1.3.3  ComplexHeatmap_2.25.3  circlize_0.4.15  gridExtra_2.3  cowplot_1.2.0    
+- **Data processing**: data.table_1.18.2.1, dplyr_1.2.0, tidyr_1.3.2 
+- **Data analysis**:   Mfuzz_2.62.0, lme4_2.0-1, emmeans_2.0.4, PKNCA_0.12.1, glmnet_4.1-10, cvTools_0.3.3, PredictABEL_1.2-4
+- **Visualization**:   ggplot2_4.0.2, ComplexUpset_1.3.3, ComplexHeatmap_2.25.3, circlize_0.4.15, gridExtra_2.3, cowplot_1.2.0
 
 
 ## 📧 Contact
