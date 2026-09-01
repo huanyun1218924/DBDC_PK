@@ -43,15 +43,13 @@ Note: Individual-level data are not included in this repository because of data-
 
 
 ## 💻 Environment & Dependencies
-- R version 4.3.3 (2024-02-29)
-- Platform: x86_64-pc-linux-gnu (64-bit)
-- Running under: Rocky Linux 9.8 (Blue Onyx)
-
-- Matrix products: default
+- R version:`v4.3.3`
+- Platform: `-pc-linux-gnu (64-bit)`
+- Running under:`Rocky Linux 9.8 (Blue Onyx)`
 - BLAS:   /app/R-4.3.3@i86-rhel9.0/lib64/R/lib/libRblas.so 
-- LAPACK: FlexiBLAS OPENBLAS-OPENMP;  LAPACK version 3.9.0
-
-The following core packages are required (full list available in the /functions folder):
+- LAPACK: `v3.9.0`
+  
+The following core packages are required (full list available in the each R script):
 - **Data processing**: `data.table_1.18.2.1`, `dplyr_1.2.0`, `tidyr_1.3.2` 
 - **Data analysis**:   `Mfuzz_2.62.0`, `lme4_2.0-1`, `emmeans_2.0.4`, `PKNCA_0.12.1`, `glmnet_4.1-10`, `cvTools_0.3.3`, `PredictABEL_1.2-4`
 - **Visualization**:   `ggplot2_4.0.2`, `ComplexUpset_1.3.3`, `ComplexHeatmap_2.25.3`, `circlize_0.4.15`, `gridExtra_2.3`, `cowplot_1.2.0`
