@@ -31,7 +31,7 @@ Note: Individual-level data are not included in this repository because of data-
 
 
 ## 🧬 Main Analysis Code
-- `Figure2.R`: Time-course analysis based on sequential postprandial metabolomics data.
+- `Figure2.R`: Time-course cluster analysis based on sequential postprandial metabolomics data using Mfuzz.
 
 - `Figure3.R`: Identification of plasma metabolites in response to food intake using linear mixed model.
 
