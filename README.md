@@ -25,26 +25,26 @@ Note: Individual-level data are not included in this repository because of data-
 ```
 
 ## 🔬 Sample Data
-- plasma_sample.Rdata: A simulated plasma dataset with the same sample size and metabolite variables as the original dataset.
+- `plasma_sample.Rdata`: A simulated plasma dataset with the same sample size and metabolite variables as the original dataset.
 
-- urine_sample.RData: A simulated urine dataset with the same sample size and metabolite variables as the original dataset.
+- `urine_sample.Rdata`: A simulated urine dataset with the same sample size and metabolite variables as the original dataset.
 
 
 ## 🧬 Main Analysis Code
-- Figure 2.R: Time-course analysis based on sequential postprandial metabolomics data.
+- `Figure 2.R`: Time-course analysis based on sequential postprandial metabolomics data.
 
-- Figure 3.R: Identification of plasma metabolites in response to food intake using linear mixed model.
+- `Figure 3.R`: Identification of plasma metabolites in response to food intake using linear mixed model.
 
-- Figure 4.R: Identification of urinary metabolites in response to food intake using linear mixed model.
+- `Figure 4.R`: Identification of urinary metabolites in response to food intake using linear mixed model.
 
-- Figure 5.R: Classification performance of multi-metabolite signature for differentiating test foods. LASSO model was used to select metabolites. 
+- `Figure 5.R`: Classification performance of multi-metabolite signature for differentiating test foods. LASSO model was used to select metabolites. 
 
-- Figure 6.R: Estimation of kinetic parameters of annotated metabolites uisng non-compartmental model.
+- `Figure 6.R`: Estimation of kinetic parameters of annotated metabolites uisng non-compartmental model.
 
 
 ## 💻 Environment & Dependencies
 - R version:`v4.3.3`
-- Platform: `-pc-linux-gnu (64-bit)`
+- Platform: `x86_64-pc-linux-gnu (64-bit)`
 - Running under:`Rocky Linux 9.8 (Blue Onyx)`
 - BLAS:   /app/R-4.3.3@i86-rhel9.0/lib64/R/lib/libRblas.so 
 - LAPACK: `v3.9.0`
