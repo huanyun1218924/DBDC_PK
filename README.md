@@ -1,4 +1,4 @@
-# Metabolomic Discovery of Multi-fluid Biomarkers of Food Intake in a Randomized Acute Feeding Trial
+# Multi-biofluid metabolomic signatures of food intake: a randomized, crossover feeding study 
 
 
 ## 📌 Overview
